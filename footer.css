@@ -1,0 +1,25 @@
+/* Footer Styling */
+.footer {
+    background: #222; /* Dark background for footer */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer navigation links */
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}

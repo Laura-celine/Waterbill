@@ -1,0 +1,56 @@
+.logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Bill History Page Styling */
+.bill-history-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #3498db;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Status Color Indicators */
+.paid {
+    color: green;
+    font-weight: bold;
+}
+
+.pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.overdue {
+    color: red;
+    font-weight: bold;
+}

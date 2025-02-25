@@ -1,0 +1,52 @@
+/* Payment Page Styling */
+.payment-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #3498db;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+/* Payment Method Dropdown */
+#payment-method {
+    width: 200px;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+/* Payment Button */
+button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}

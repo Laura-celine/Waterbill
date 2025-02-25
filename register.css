@@ -1,0 +1,59 @@
+/* General styles for body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered registration container */
+.container {
+    width: 40%;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Form headings */
+h2 {
+    color: #333;
+}
+
+/* Input fields styling */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Error and success messages */
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}

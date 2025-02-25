@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-image: url('background.jpg'); /* Add background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.container p {
+    margin-bottom: 20px;
+    color: #555; /* Medium-dark text color */
+}
+
+/* Button Styles */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.user-btn {
+    background-color: #28a745; /* Green for User Login */
+    color: white;
+}
+
+.admin-btn {
+    background-color: #007bff; /* Blue for Admin Login */
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9; /* Slightly fade buttons on hover */
+}
